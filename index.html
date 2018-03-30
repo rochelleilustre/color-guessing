@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+	<meta http-equiv="X-UA-compatible" content="IE=edge">
+
+	<title>Color Guessing Game</title>
+
+	<link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+<body>
+
+	<header class="jumbotron">		
+		<div class="text-center">			
+			<h1>Guess My Color</h1>
+			<h2 id="mainColor"></h2>
+		</div>
+
+		<span style="padding-left: 110px">Number of tries: <strong><span id="tries"></span></strong></span>		
+	</header>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-4">
+				<div class="box"></div>		
+			</div>
+
+			<div class="col-4">
+				<div class="box"></div>		
+			</div>
+
+			<div class="col-4">
+				<div class="box"></div>		
+			</div>			
+
+			<div class="col-4">
+				<div class="box"></div>		
+			</div>
+
+			<div class="col-4">
+				<div class="box"></div>		
+			</div>
+
+			<div class="col-4">
+				<div class="box"></div>		
+			</div>			
+		</div><!-- row -->
+	</div><!-- container -->
+
+	<section id="gameOver" class="text-center invisible">
+		<h3>GAME OVER!</h3>
+		<a href="index.html"><b>Play Again <i class="glyphicon glyphicon-repeat"></i></b></a>
+	</section>
+
+	<section id="correct" class="text-center invisible">
+		<h3>YOU'RE CORRECT!</h3>
+		<a href="index.html"><b>Play Again <i class="glyphicon glyphicon-repeat"></i></b></a>
+	</section>
+
+
+	<script type="text/javascript" src="js/script.js"></script>
+
+	<footer class="container text-center">
+		Copright &copy; | Chellie 2018
+	</footer>
+
+</body>
+</html>
